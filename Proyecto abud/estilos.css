@@ -1,0 +1,43 @@
+.colornav{
+    background-color:darkolivegreen;
+}
+.nav-link{
+    color:honeydew !important;
+}
+
+.nav-link:hover{
+color:steelblue!important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+height: 100%;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hero-content{
+background: url("img/persona-que-comparte-sentimientos-y-emociones-durante-la-sesion-de-terapia.jpg") no-repeat center center/cover;
+height: 100vh;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+text-align: center;
+padding: 0 40px;
+
+}
+
+.hero-content .intro{
+font-size: 20px;
+margin: 0 auto 10px;
+margin-top: 70px;
+max-width: 700px;
+line-height: 1.6;
+color:rgb(104, 160, 205);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
